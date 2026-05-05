@@ -14,7 +14,7 @@ This project uses NFL play-by-play data from 2018-2024 to quantify the relations
 
 ## Hypothesis
 
-Pressure rate allowed by the offensive line will negatively correlate with QB EPA per play. Elite QBs will show positive residuals — producing above what their protection situation predicts — while below-average QBs will show negative residuals. Young QBs in their first two seasons will be more sensitive to pressure than veterans.
+Pressure rate allowed by the offensive line will negatively correlate with QB EPA per play. Elite QBs will show positive residuals, producing above what their protection situation predicts — while below-average QBs will show negative residuals. Young QBs in their first two seasons will be more sensitive to pressure than veterans.
 
 ---
 
@@ -30,7 +30,7 @@ Pressure rate allowed by the offensive line will negatively correlate with QB EP
 ## Methodology
 
 ### OL Pressure Metric
-Pressure rate is calculated as the proportion of dropbacks resulting in either a QB hit or a sack. This is an imperfect proxy for true pressure rate — it does not capture hurries or incomplete pressures — but it is the most reliable measure available in public play-by-play data.
+Pressure rate is calculated as the proportion of dropbacks resulting in either a QB hit or a sack. This is an imperfect proxy for true pressure rate, it does not capture hurries or incomplete pressures — but it is the most reliable measure available in public play-by-play data.
 
 ### QB Performance Metric
 EPA per play (qb_epa from nflverse) measures the value added or lost on each dropback relative to expectation. It is the most context-neutral measure of QB efficiency available in public data.
@@ -85,13 +85,13 @@ A key hypothesis was that young QBs in years 1-2 would show a stronger negative 
 | Years 1-2 only | -0.403 | 9.44e-07 |
 | Difference | +0.050 | — |
 
-The 0.05 difference is not meaningful. Pressure hurts all QBs at roughly the same rate regardless of experience. The individual cases of Fields, Young, and Wilson in the bottom right of the young QB chart reflect compounding struggles — both under heavy pressure and performing below expectation — rather than a systemic vulnerability unique to young QBs.
+The 0.05 difference is not meaningful. Pressure hurts all QBs at roughly the same rate regardless of experience. The individual cases of Fields, Young, and Wilson in the bottom right of the young QB chart reflect compounding struggles, both under heavy pressure and performing below expectation — rather than a systemic vulnerability unique to young QBs.
 
 ### 5. The Caleb Williams Implication
 
-Justin Fields appeared in the bottom right of the young QB development chart in both 2021 and 2022 — high pressure rate, negative EPA in consecutive seasons. The Bears OL situation was not incidental to his struggles. Whether those struggles were primarily OL-driven or QB-driven cannot be definitively answered here, but the pattern is consistent with an environment that gave a young QB very little room to develop.
+Justin Fields appeared in the bottom right of the young QB development chart in both 2021 and 2022, high pressure rate, negative EPA in consecutive seasons. The Bears OL situation was not incidental to his struggles. Whether those struggles were primarily OL-driven or QB-driven cannot be definitively answered here, but the pattern is consistent with an environment that gave a young QB very little room to develop.
 
-Caleb Williams enters 2026 with an improved but still inconsistent offensive line. This analysis suggests the pressure he faces will affect his EPA in roughly the same way it affects any QB — there is no evidence young QBs are uniquely shielded from it. The margin for error is real.
+Caleb Williams enters 2026 with an improved but still inconsistent offensive line. This analysis suggests the pressure he faces will affect his EPA in roughly the same way it affects any QB; there is no evidence young QBs are uniquely shielded from it. The margin for error is real.
 
 ---
 
